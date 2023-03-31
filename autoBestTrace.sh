@@ -39,7 +39,7 @@ ip_addr=(广州电信 广州联通 广州移动)
 
 # ip_len=${#ip_list[@]}
 
-for i in {0..7}; do
+for i in {0..3}; do
     echo ${ip_addr[$i]}
     ./besttrace2021 -q 1 ${ip_list[$i]}
     next
